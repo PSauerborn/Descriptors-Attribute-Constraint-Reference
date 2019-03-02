@@ -1,9 +1,5 @@
-try:
-    from functools import wraps, partial
-    import logging
-
-except Exception as err:
-    print(err)
+from functools import wraps, partial
+import logging
 
 
 def attach_wrapper(obj, func=None):
